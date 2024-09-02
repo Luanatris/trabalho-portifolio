@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio de Luana Alves da Silva</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .container {
+            display: grid;
+        }
+
+        header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #a7b1df;
+        }
+
+        .menu {
+            grid-column-start: 6;
+            grid-column-end: 12;
+            justify-content: center;/*centraliza o menu*/
+            gap: 20px;/*https://nekocalc.com/px-to-rem-converter*/
+        }
+
+
+        .imagem_portifolio {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            gap: 20px
+            
+        }
+
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 10px;
+            text-align: justify;
+
+        }
+
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #7392c2;
+            color: white;
+            text-align: left;
+        }
+
+        ul {
+            list-style-type: none;
+            color: #9ea2d1;
+        }
+
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #8db8b2 1px;
+        }
+
+        li {
+            float: left;
+        }
+
+        a:hover {
+            background-color: #b6dbd6;
+            color: white;
+        }
+
+        /* media query para dispositivos móveis */
+        @media only screen and (max-width: 767px) {
+            .wrapper {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+
+            .imagem_portifolio.jpg {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+
+            .principal {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <h1 style="color: white; text-align: center;">Portifolio de Luana Alves da Silva</h1>
+        <br>
+
+    </header>
+    <nav class="container menu">
+        <ul>
+            <li><a href="sobre mim.html">Sobre mim</a></li>
+            <li><a href="formação.html">Formação</a></li>
+            <li><a href="portifolio.html">Portifólio</a></li>
+            <li><a href="contato">Contato</a></li>
+        </ul>
+    </nav>
+    <div class="container wrapper">
+        <aside class="imagem_portifolio.png.jpg">
+            <img src="portifolio.png.jpg">
+        
+            <div class="infos">
+                <p><strong>Ocupação</strong> Tecnica de enfermagem</p>
+                <p>
+                    <strong>Data do Nascimento</strong>
+                    16/04/1999
+                </p>
+                <p><strong>Data da Morte</strong> 02/05/1519 (aos 67 anos)</p>
+            </div>
+
+        </aside>
+        <section class="principal">
+            <h1>
+                Luana Alves da Silva
+            </h1>
+            <p> 
+                Olá! Me chamo Luana, sou técnica de enfermagem há 6 anos, tambem faço graduação de Ciências de dados pela universidade Uninter na modalidade Ead, sou a filha mais nova e mãe de 6 pets.
+
+            </p>
+        </section>
+    </div>
+    <footer class="container">
+        <h1>Para mais informações : Luanatristan@gmail.com</h1>
+    </footer>
+    </div>
+</body>
+
+</html>
