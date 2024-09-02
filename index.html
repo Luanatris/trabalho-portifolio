@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Portifolio de Luana Alves da Silva</title>
+   
+    <style>
+
+        body {
+            margin: 0;
+        }
+/*tirando as margens do corpo da pagina*/
+        .container {
+            display: grid;
+        }
+/*configurando um layout em grade para distribuir o conteúdo em diferentes áreas.*/
+        header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #a7b1df;
+        }
+/*O cabeçalho ocupa a primeira linha da grade e se estende por todas as colunas (1 a 12). Está estilizado com uma cor de fundo cinza-esverdeada #506E6A e contém o título principal da página.*/
+
+        .menu {
+            grid-column-start: 6;
+            grid-column-end: 12;
+            justify-content: center;/*centraliza o menu*/
+            gap: 20px;/*https://nekocalc.com/px-to-rem-converter*/
+            
+        } 
+        /*Posicionado à direita (grid-column-start: 6 e grid-column-end: 12), o menu contém uma lista de links de navegação (biografia, obras, curiosidades)*/.
+
+        .imagem_portifolio {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            gap: 20px
+            
+        }
+
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 10px;
+            text-align: justify;
+
+        }
+        .imagem_portifolio.jpg {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #7392c2;
+            color: white;
+            text-align: left;
+        }
+
+        ul {
+            list-style-type: none;
+            color: #9ea2d1;
+        }
+
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #8db8b2 1px;
+        }
+
+        li {
+            float: left;
+        }
+
+        a:hover {
+            background-color: #b6dbd6;
+            color: white;
+        }
+
+        /* media query para dispositivos móveis */
+        @media only screen and (max-width: 767px) {
+            .wrapper {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+
+            .imagem_portifolio.jpg {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+
+            .principal {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <h1 style="color: rgb(243, 249, 250); text-align: center;">Portifolio de Luana Alves da Silva</h1>
+        <br>
+
+    </header>
+    
+
+    <nav class="container menu">
+ 
+        <ul>
+            <li><a href="sobre mim.html">Sobre mim</a></li>
+            <li><a href="formação.html">Formação</a></li>
+            <li><a href="portifolio.html">Portifólio</a></li>
+            <li><a href="contato">Contato</a></li>
+        </ul>
+    </nav>
+    
+    
+    <div class="container wrapper">
+        <aside class="imagem_portifolio.png.jpg">
+            <img src="portifolio.png.jpg">
+        
+            <div class="infos">
+                <p><strong>Ocupação</strong> Tecnica de enfermagem</p>
+                <p>
+                    <strong>Data do Nascimento</strong>
+                    16/04/1999
+                </p>
+            </div>
+
+        </aside>
+        <section class="principal">
+            <h1>
+                Luana Alves da Silva
+            </h1>
+            <p> 
+                Olá! Me chamo Luana, sou técnica de enfermagem há 6 anos, tambem faço graduação de Ciências de dados pela universidade Uninter na modalidade Ead, sou a filha mais nova e mãe de 6 pets.
+
+            </p>
+        </section>
+    
+</aside>
+<section class=" principal">
+    <h1>
+        Sobre Mim
+    </h1>
+    <div class="card">
+       
+
+            <div class="">
+                <h2>Eu</h2>
+                <p> sou tecnica de enfermagem, tenho 25 anos de idade, atuo no centro cirurgico onde sou instrumentadora e circulante há dois anos e seis meses no hospital sao pelegrino Lazziozi de Veranopolis-Rs.</p>
+
+            </div>
+        </div>
+
+        <h1>
+            Um pouco da minha Experiência:
+        </h1>
+        
+    
+
+        <p>Me formei em 2018 pela escola tecnica Interdigitus em Manaus-AM </p>
+        <p>Em 2021 trabalhei na clinica prosper como tecnica de enfermagem em setor de coleta laboratorial.</p>
+        <p>No ano de 2022 iniciei meu trabalho no Bloco cirurgico, onde é o meu atual emprego
+        </p>
+    </section>
+    
+</div>
+    </div>
+</section>
+</div>
+<footer class="container">
+<h1> contato:luanatristan@gmail.com</h1>
+</footer>
+</footer>
+</div>
+</body>
+</body>
+
+</html>
