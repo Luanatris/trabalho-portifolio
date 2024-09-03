@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quem sou eu?</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .container {
+            display: grid;
+        }
+
+        header {
+            grid-column-start: 1;
+            grid-column-end: 10;
+            background-color: #d6cd46;
+        }
+
+        .menu {
+            grid-column-start: 6;
+            grid-column-end: 10;
+            justify-content: center;/*centraliza o menu*/
+            gap: 20px;/*https://nekocalc.com/px-to-rem-converter*/
+        }
+
+
+        .imagem_portifolio {
+            grid-column-start: 1;
+            grid-column-end: 3;
+
+        }
+
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: justify;
+
+        }
+
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 10;
+            background-color: #d6cd46;
+    
+            color: white;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            color: #506E6A;
+        }
+
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #d6cd46 1px;
+        }
+
+        li {
+            float: left;
+        }
+
+        a:hover {
+            background-color: #d6cd46;
+
+            color: white;
+        }
+
+        /* media query para dispositivos móveis */
+        @media only screen and (max-width: 767px) {
+            .wrapper {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+
+            .imagem_leo {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+
+            .principal {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <h1 style="color: white; text-align: center;">Me conheça:</h1>
+        <br>
+
+    </header>
+    <nav class="container menu">
+        <ul>
+            <li><a href="index.html">Sobre Mim</a></li>
+            <li><a href="formação.html">Formação</a></li>
+            <li><a href="portifolio.html">Portifolio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <div class="container wrapper">
+        <aside class="imagem_enfermagem">
+            <img src="enfermagem.jpg">
+           
+
+        </aside>
+        <section class="principal">
+            <h1>
+                    Equipe profissional
+            </h1>
+            <p><strong>Hospital de atuação: </strong>São Pelegrino lazziozzi </p>
+            <p>Trabalho há dois anos na assistencia a saúde onde sou instrumentadora e circulante do centro cirurgico </p>
+            <p><strong>Tambem atuo na assistencia ao paciente em curativos e punções venosas </p>
+            
+            
+            
+        </section>
+    </div>
+    <footer class="container">
+        <h1>contato:luana@tristangmail.com</h1>
+    </footer>
+    </div>
+</body>
+
+</html>
