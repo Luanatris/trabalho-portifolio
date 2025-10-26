@@ -24,7 +24,8 @@
         </div>
         <nav class="menu-desktop">
             <ul>
-                <li><a href="#topo">Início</a></li>
+                <li><a href="#topo">Início</a></li>[style.css](https://github.com/user-attachments/files/23151736/style.css)
+
                 <li><a href="#especialidades">Especialidades</a></li>
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#portfolio">Projetos</a></li>
@@ -166,7 +167,8 @@ Aqui compartilho projetos em Java, Spring Boot e Data Science, explorando soluç
                 </div>
             </div>
         </div>
-        <div class="line-footer borda">
+        <img width="250" height="250" alt="Logo DATa png ico" src="https://github.com/user-attachments/assets/bae0bda2-b2f9-4433-ae97-9547ab806207" />
+<div class="line-footer borda">
             <p><i class="bi bi-envelope-fill"></i> <a href="mailto:luanatristan@gmail.com">luanatristan@gmail.com</a></p>
         </div>
     </div>
